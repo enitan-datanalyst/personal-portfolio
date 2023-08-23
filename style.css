@@ -1,0 +1,204 @@
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+    }
+    
+    .navbar {
+        padding-top: 20px !important;
+    }
+    
+    .active {
+        border-bottom: 2px solid #000000;
+    }
+    
+    .nav-item {
+        margin-left: 40px;
+        margin-right: 70px;
+        align-items: right!important;
+        display: flex;
+    }
+    
+    .nav-link {
+        font-size: 12px!important;
+        padding: 0 0 5px 0!important;
+        display: unset !important;
+        color: rgb(245, 239, 245)!important;
+        align-items: center !important;
+    }
+    
+    .nav-link:hover {
+        border-bottom: 2px solid cyan;
+    }
+    
+    .navbar-brand {
+        font-family: cursive !important;
+        margin-left: 20px;
+        font-weight: 400px !important;
+    }
+    
+    .img-used {
+        width: 400px;
+        height: 400px;
+        border-radius: 50% !important;
+        margin-top: 50px;
+        margin-left: 4rem;
+    }
+    
+    .table-cell {
+        display: table-cell;
+        vertical-align: middle;
+        padding-bottom: 50px;
+    }
+    
+    .header2 {
+        padding-top: 0.5rem;
+    }
+    
+    .container {
+        margin: 5px;
+    }
+    
+    .text {
+        padding-top: 100px;
+    }
+    
+    .social {
+        justify-items: center;
+    }
+   
+    .fa {
+        padding: 8px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+    
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: #aa0e42;
+        color: white;
+    }
+    
+    .fa-github {
+        background: #f4f6f7;
+        color: rgb(12, 10, 10);
+    }
+    
+    .fa-whatsapp {
+        background: #015a3f;
+        color: white;
+    }
+    
+    span {
+        color: cyan;
+    }
+    
+    p {
+        font-size: 1.2rem !important;
+        font-weight: bold !important;
+    }
+    
+    button:not(:disabled) {
+        cursor: pointer;
+    }
+    
+    .button-1 {
+        margin: 10px;
+        height: 50px;
+        outline: none;
+        display: flex;
+        font-size: 15px;
+        font-weight: 500;
+        transition: 0.45s;
+        position: relative;
+        padding: 15px 30px;
+        align-items: center;
+        transition-delay: 0s;
+        justify-content: center;
+        background: transparent;
+        color: rgb(245, 237, 237);
+        text-transform: uppercase;
+        border: 2px solid #f7f3f6;
+        margin-left: 44rem;
+    }
+    
+    .tcolor {
+        color: cyan;
+    }
+    
+    .button-1::before {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: 50%;
+        width: 20px;
+        height: 2px;
+        transform: translateY(-50%);
+        background: white;
+        box-shadow: 5px -8px 0 white, 5px 8px 0 white;
+        transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+        transition-delay: 0.5s, 0.5s, 0s, 0s;
+    }
+    
+    .button-1::after {
+        content: '';
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        width: 20px;
+        height: 2px;
+        transform: translateY(-50%);
+        background: white;
+        box-shadow: -5px -8px 0 white, -5px 8px 0 white;
+        transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;
+        transition-delay: 0.5s, 0.5s, 0s, 0s;
+    }
+    
+    .heading {
+        font-size: 4.5rem;
+        text-align: right;
+        font-weight: bold;
+        /* margin-bottom: -84px; */
+        text-transform: uppercase;
+        color: var(--heading-text);
+        font-family: 'Jost', sans-serif;
+    }
+    
+    .section-title h1 {
+        font-family: 'Jost', sans-serif;
+        font-size: 2.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: white
+    }
+    
+    .abme {
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        font-size: 1.20rem;
+        color: #8f8f8f;
+        letter-spacing: 0.030rem;
+    }
+    
+    .heading2 {
+        font-family: 'Jost', sans-serif;
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        color: var(--heading-text);
+        text-align: left;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
